@@ -1,13 +1,18 @@
 
-#### Sequence List
+### Sequence List
 
-##### Installation
+#### Installation
 ```shell
 npm install --save seqlist
 
 ```
 
-##### Tests
+#### Usage
+```javascript
+let seqlist = require('seqlist');
+```
+
+#### Tests
 To run the test suite, first install the dependencies, then run npm test:
 ```shell
 git clone git://github.com/seqlistjs/seqlistjs.git --depth 1
@@ -17,7 +22,7 @@ npm test
 
 ```
 
-##### Method
+#### Method
 - [shuffle](https://github.com/Yann-Wang/seqlistjs/blob/master/docs/shuffle.md)
 - [topk](https://github.com/Yann-Wang/seqlistjs/blob/master/docs/topk.md)
 - [draw](https://github.com/Yann-Wang/seqlistjs/blob/master/docs/draw.md)
