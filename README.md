@@ -23,7 +23,18 @@ npm test
 ```
 
 #### Method
-- [shuffle](https://github.com/Yann-Wang/seqlistjs/blob/master/docs/shuffle.md)
+- shuffle
+- topk
+- draw
+- binarySearch
+
+##### [shuffle(returnOriginal)](https://github.com/Yann-Wang/seqlistjs/blob/master/docs/shuffle.md)
+- use position replacement algorithm.
+- time complexity is O(n), space complexity is O(n).
+- the array to shuffle should be even.
+- when the argument of the method is true, return the original array.
+ Otherwise, return a new array.
+ 
 ```javascript
 let SeqList = require('seqlist');
 
@@ -46,7 +57,12 @@ let result3 = seqlist3.shuffle(true);
 console.log(result3);
 
 ``` 
-- [topk](https://github.com/Yann-Wang/seqlistjs/blob/master/docs/topk.md)
+
+##### [topk(k,state[,propertyName])](https://github.com/Yann-Wang/seqlistjs/blob/master/docs/topk.md)
+- use heap sort algorithm.
+- time complexity is O(nlgk), space complexity is O(1).
+- when the state is 'max', return the max top k elements. 
+when the state is 'min', return the min top k elements.
 ```javascript
 let SeqList = require('seqlist');
 
@@ -62,7 +78,13 @@ let result2 = seqlist2.topk(4,'min','x');
 
 console.log(result2);
 ```
-- [draw](https://github.com/Yann-Wang/seqlistjs/blob/master/docs/draw.md)
+
+##### [draw(n)](https://github.com/Yann-Wang/seqlistjs/blob/master/docs/draw.md)
+- use disorder algorithm.
+- draw k numbers from a array randomly.
+- time complexity is O(k), space complexity is O(1).
+- return a array which includes k numbers.
+
 ```javascript
 let SeqList = require('seqlist');
 
@@ -80,7 +102,13 @@ let result2 = seqlist2.draw(3);
 console.log(result2);
 
 ```
-- [binarySearch](https://github.com/Yann-Wang/seqlistjs/blob/master/docs/binarySearch.md)
+
+##### [binarySearch(lower_bound,upper_bound,value[,propertyName])](https://github.com/Yann-Wang/seqlistjs/blob/master/docs/binarySearch.md)
+- use binary search algorithm.
+- the sequence list should be ordered.
+- time complexity is O(lgn), space complexity is O(1).
+- return a section which includes the left, but doesn't include the right. 
+
 ```javascript
  let SeqList = require('seqlist');
  

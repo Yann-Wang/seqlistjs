@@ -1,4 +1,4 @@
-###### binarySearch(lower_bound,upper_bound,value[,propertyName])
+#### binarySearch(lower_bound,upper_bound,value[,propertyName])
 - use binary search algorithm.
 - the sequence list should be ordered.
 - time complexity is O(lgn), space complexity is O(1).
