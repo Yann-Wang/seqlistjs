@@ -15,7 +15,7 @@ let seqlist = require('seqlist');
 #### Tests
 To run the test suite, first install the dependencies, then run npm test:
 ```shell
-git clone git://github.com/seqlistjs/seqlistjs.git --depth 1
+git clone git@github.com:Yann-Wang/seqlistjs.git --depth 1
 cd SeqList
 npm install
 npm test

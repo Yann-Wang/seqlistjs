@@ -1,6 +1,6 @@
 {
   "name": "seqlist",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "a package which includes the common method of sequence list, such as shuffle, topk, draw, binarySearch.",
   "main": "index.js",
   "scripts": {
