@@ -1,8 +1,10 @@
 
 ### Sequence List
+
 [![NPM](http://nodei.co/npm/seqlist.png?downloads=true)](http://nodei.co/npm/seqlist/)
 
 [![NPM version](https://img.shields.io/npm/v/seqlist.svg)]()
+
 #### Installation
 ```shell
 npm install --save seqlist
