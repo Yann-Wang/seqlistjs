@@ -1,6 +1,6 @@
 
 ### Sequence List
-
+[![NPM version](https://img.shields.io/npm/v/seqlist.svg)]()
 #### Installation
 ```shell
 npm install --save seqlist
