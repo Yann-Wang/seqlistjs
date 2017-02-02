@@ -130,7 +130,8 @@ console.log(result2);
  console.log(result2);
  ```
 
-
+#### Support
+Tested in Node.js 6-7
 
 
 
