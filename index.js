@@ -1,7 +1,7 @@
 /**
  * Created by gospray on 17-1-22.
  */
-
+'use strict';
 let Shuffle = require('./lib/shuffle');
 let Topk = require('./lib/topk');
 let Draw = require('./lib/draw');

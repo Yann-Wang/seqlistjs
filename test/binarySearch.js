@@ -1,7 +1,7 @@
 /**
  * Created by a_wav on 2017/1/30.
  */
-
+'use strict';
 const chai = require('chai');
 let assert = chai.assert;
 let SeqList = require('../');
