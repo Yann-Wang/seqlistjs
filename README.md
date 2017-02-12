@@ -133,7 +133,7 @@ console.log(result2);
  ```
 
 #### Support
-Tested in Node.js 4.2-7
+Tested in Node.js 0.10.0-7.5.0
 
 
 
