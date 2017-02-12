@@ -5,6 +5,8 @@
 
 [![NPM version](https://img.shields.io/npm/v/seqlist.svg)]()
 
+a package which includes the common method of sequence list ( array ), such as shuffle, topk, draw, binarySearch.
+
 #### Installation
 ```shell
 npm install --save seqlist
