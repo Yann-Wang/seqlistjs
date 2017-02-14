@@ -16,10 +16,7 @@ describe('#binarySearch()', function() {
         console.log(result);
         done();
     });
-});
 
-
-describe('#binarySearch()', function() {
     it('the element is a object', function(done) {
         var arr = [{x:0},{x:1},{x:2},{x:3},{x:4},{x:5},{x:5},{x:5},{x:8},{x:9}];
         var seqlist = new SeqList(arr);
@@ -30,3 +27,5 @@ describe('#binarySearch()', function() {
         done();
     });
 });
+
+

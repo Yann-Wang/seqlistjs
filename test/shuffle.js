@@ -15,9 +15,7 @@ describe('#shuffle()', function() {
         assert.deepEqual(result,[5,1,6,2,7,3,8,4]);
         done();
     });
-});
 
-describe('#shuffle()', function() {
     it('length is 2', function(done) {
         var arr = [1,2];
         var seqlist = new SeqList(arr);
@@ -26,9 +24,7 @@ describe('#shuffle()', function() {
         assert.deepEqual(result,[2,1]);
         done();
     });
-});
 
-describe('#shuffle()', function() {
     it('the element is a object', function(done) {
         var arr = [{x:1},{x:2}];
         var seqlist = new SeqList(arr);

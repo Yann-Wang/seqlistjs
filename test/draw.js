@@ -16,9 +16,7 @@ describe('#draw()', function() {
         console.log(result);
         done();
     });
-});
 
-describe('#draw()', function() {
     it('the element is a object', function(done) {
         var arr = [{x:3},{x:2},{x:1},{x:6},{x:4},{x:8},{x:5},{x:7}];
         var seqlist = new SeqList(arr);

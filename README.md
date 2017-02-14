@@ -5,7 +5,7 @@
 
 [![NPM version](https://img.shields.io/npm/v/seqlist.svg)]()
 
-a package which includes the common method of sequence list ( array ), such as shuffle, topk, draw, binarySearch.
+The seqlist module encapsulates four algorithms: shuffling, topk, lottery, binary search, array elements can be numbers or objects, and the implementation of the algorithm takes into account the impact of time complexity and space complexity on performance.
 
 #### Installation
 ```shell
