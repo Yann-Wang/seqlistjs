@@ -15,7 +15,7 @@
     "draw"
   ],
   "author": "gospray",
-  "repository":"https://github.com/Yann-Wang/seqlistjs",
+  "repository": "https://github.com/Yann-Wang/seqlistjs",
   "license": "ISC",
   "devDependencies": {
     "chai": "^3.5.0",
