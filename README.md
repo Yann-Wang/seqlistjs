@@ -5,6 +5,8 @@
 
 [![NPM version](https://img.shields.io/npm/v/seqlist.svg)]()
 
+The seqlist module encapsulates four algorithms: shuffling, topk, lottery, binary search, array elements can be numbers or objects, and the implementation of the algorithm takes into account the impact of time complexity and space complexity on performance.
+
 #### Installation
 ```shell
 npm install --save seqlist
@@ -131,7 +133,7 @@ console.log(result2);
  ```
 
 #### Support
-Tested in Node.js 6-7
+Tested in Node.js 0.10.0-7.5.0
 
 
 
