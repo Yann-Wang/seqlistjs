@@ -35,7 +35,7 @@ npm test
 - binarySearch
 
 ##### [shuffle(returnOriginal)](https://github.com/Yann-Wang/seqlistjs/blob/master/docs/shuffle.md)
-- use position replacement algorithm.
+- first, get one thrid of the sequence list and use riffle shuffle. Then, use perfect shuffle. At last, get the one third and use perfect shuffle alike.
 - time complexity is O(n), space complexity is O(n).
 - the array to shuffle should be even.
 - when the argument of the method is true, return the original array.
